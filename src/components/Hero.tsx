@@ -75,9 +75,17 @@ const Hero = () => {
                     initial={{ opacity: 0, y: 50 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, ease: "easeOut", delay: 0.4 }}
-                    className="text-xl md:text-2xl text-zinc-300 font-light max-w-2xl mx-auto"
+                    className="text-xl md:text-2xl text-zinc-300 font-light max-w-4xl mx-auto"
                 >
-                    Digital Designer & Developer
+                    Academic–Entrepreneurship Group | Mechatronics • Control • Signal Processing • Intelligent Systems
+                </motion.p>
+                <motion.p
+                    initial={{ opacity: 0, y: 50 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1, ease: "easeOut", delay: 0.6 }}
+                    className="text-lg text-zinc-400 mt-6 max-w-2xl mx-auto italic"
+                >
+                    "Building practical, research-driven systems that connect control engineering, sensing, and AI for real-world impact."
                 </motion.p>
             </div>
 
